@@ -1,0 +1,17 @@
+version = 1
+
+[repo]
+base = "main"
+language = "python"
+
+[checks]
+test = "python3 -m pytest -q"
+
+[tracker]
+kind = "gh"
+
+[proof]
+
+[human]
+paths = []
+actions = ["merge to main"]
